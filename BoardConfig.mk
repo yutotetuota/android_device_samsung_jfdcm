@@ -20,6 +20,10 @@
 # definition file).
 #
 
+# Kernel
+TARGET_KERNEL_CONFIG := jf_dcm_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/jfdcm
+
 # inherit from common jf
 include device/samsung/jf-common/BoardConfigCommon.mk
 
@@ -27,7 +31,7 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := GT-I9505,GT-I9505G,i9505,i9505g,jflte,jfltetmo,jfltexx,jgedlte
+TARGET_OTA_ASSERT_DEVICE := GT-I9505,GT-I9505G,i9505,i9505g,jflte,jfltetmo,jfltexx,jgedlte,jfdcm,SC-04E
 
 # Properties
-TARGET_SYSTEM_PROP += device/samsung/jfltexx/system.prop
+TARGET_SYSTEM_PROP += device/samsung/jfdcm/system.prop
