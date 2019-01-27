@@ -22,14 +22,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from jfltexx device
 $(call inherit-product, device/samsung/jfltexx/full_jfltexx.mk)
 
-PRODUCT_NAME := lineage_jfltexx
-PRODUCT_DEVICE := jfltexx
+PRODUCT_NAME := lineage_jfdcm
+PRODUCT_DEVICE := jfdcm
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-  PRODUCT_NAME=jfltexx \
-  TARGET_DEVICE=jfltexx \
-  PRIVATE_BUILD_DESC="jfltexx-user 5.0.1 LRX22C I9505XXUHPF4 release-keys"
+  PRODUCT_NAME=SC-04E \
+  TARGET_DEVICE=SC-04E \
+  PRIVATE_BUILD_DESC="jfltedcm-user 5.0.1 LRX22C SC04EOMUGOI4 release-keys"
 
-BUILD_FINGERPRINT := samsung/jfltexx/jflte:5.0.1/LRX22C/I9505XXUHPF4:user/release-keys
+BUILD_FINGERPRINT := samsung/SC-04E/SC-04E:5.0.1/LRX22C/SC04EOMUGOI4:user/release-keys
