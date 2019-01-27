@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_jfltexx.mk
+    $(LOCAL_DIR)/lineage_jfdcm.mk
